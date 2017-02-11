@@ -8,6 +8,16 @@ body {
   background: url('svgs/background.svg') repeat #edeff0;
 }
 
+.logo {
+  width: 140px;
+  height: 120px;
+}
+
+.logo-txt {
+  display: none;
+  color: #EAAA7F;
+}
+
 #container {
   max-width: 960px;
   background: #fff;
@@ -79,4 +89,16 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+@media screen and (max-width: 420px) {
+
+  .logo-txt {
+    display: block;
+  }
+
+  .logo .st1 {
+    visibility: hidden;
+  }
+
 }
