@@ -16,6 +16,7 @@ body {
 .logo-txt {
   display: none;
   color: #EAAA7F;
+  margin: 10px auto;
 }
 
 #container {
