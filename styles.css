@@ -16,6 +16,7 @@
   }
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -112,7 +113,9 @@ main {
 ================*/
 
 .menu {
-  height: 13px;
+  display: inline-block;
+  height: 18px;
+  overflow: visible;
 }
 
 .menu-icon {
@@ -121,7 +124,7 @@ main {
 
 a:hover .menu-icon {
   fill: #111;
-  animation: pulse 1s ease-out;
+  animation: pulse .4s ease-out;
 }
 
 
